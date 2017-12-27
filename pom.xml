@@ -21,6 +21,7 @@
 		<module>common</module>
 		<module>apimodule</module>
 		<module>bsmodule</module>
+		<module>bsmodule</module>
 	</modules>
 	<packaging>pom</packaging>
 
