@@ -14,12 +14,35 @@
 	<groupId>test</groupId>
 	<artifactId>test</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<modules>
-		<module>common</module>
-		<module>apimodule</module>
-		<module>bsmodule</module>
-	</modules>
 	<packaging>pom</packaging>
+
+	<profiles>
+		<profile>
+			<id>compile-all</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<modules>
+				<module>data</module>
+				<module>bs</module>
+				<module>api</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>compile-bs</id>
+			<modules>
+				<module>data</module>
+				<module>bs</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>compile-api</id>
+			<modules>
+				<module>data</module>
+				<module>api</module>
+			</modules>
+		</profile>
+	</profiles>
 
 	<build>
 		<plugins>
@@ -34,6 +57,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
