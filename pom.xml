@@ -15,12 +15,8 @@
 	<artifactId>test</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<modules>
-		<module>data</module>
-		<module>api</module>
-		<module>bs</module>
 		<module>common</module>
 		<module>apimodule</module>
-		<module>bsmodule</module>
 		<module>bsmodule</module>
 	</modules>
 	<packaging>pom</packaging>

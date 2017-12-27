@@ -12,5 +12,8 @@
 
 	<artifactId>common</artifactId>
 
+	<modules>
+		<module>data</module>
+	</modules>
 
 </project>

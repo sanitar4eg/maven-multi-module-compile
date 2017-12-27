@@ -12,5 +12,9 @@
 
 	<artifactId>bs-module</artifactId>
 
+	<modules>
+		<module>bs</module>
+	</modules>
+
 
 </project>

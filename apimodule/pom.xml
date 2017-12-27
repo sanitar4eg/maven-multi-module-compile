@@ -12,5 +12,9 @@
 
 	<artifactId>api-module</artifactId>
 
+	<modules>
+		<module>api</module>
+	</modules>
+
 
 </project>
